@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  margin: 130px auto;
+  width: 700px;
+  box-shadow: 0 0.2rem 0.25rem rgba(0, 123, 23, 0.5);
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+.date-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+.date-container h2 {
+  color:#007b17;
+  opacity: 0.5;
+  border-radius: 7px;
+  border: 3px solid #086118;
+  padding: 20px;
+  width: 200px;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 300px;
+  background-color: #09ad27;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+.btn:hover{
+  background-color: #36e255;
+}

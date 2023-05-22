@@ -1,0 +1,31 @@
+.center {
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 5%;
+  object-fit: cover;
+  object-position: -40px 0;
+  border: 1px solid #3EB489;
+}
+
+.contente h2,
+p {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  width: 70%;
+  margin: 10px auto;
+}
+.social i {
+  padding: 0 10px;
+  font-size: 30px;
+  color: #24a73c;
+}
+
+.social i:hover {
+  color: #17c537;
+}
